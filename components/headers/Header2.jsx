@@ -18,8 +18,8 @@ export default function Header2() {
                 <div className="header-logo">
                   <Link scroll={false} href={`/`}>
                     <Image
-                      src="/assets/img/logo-white.png"
-                      width={199}
+                      src="/assets/img/OCEANCONNECTING.svg"
+                      width={109}
                       height={42}
                       alt="techo"
                     />

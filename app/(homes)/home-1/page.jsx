@@ -1,42 +1,43 @@
-import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
-import HeaderTop from "@/components/headers/HeaderTop";
-import About from "@/components/homes/home-1/About";
-import Blog from "@/components/homes/home-1/Blog";
 import Cta from "@/components/common/Cta";
-import Facts from "@/components/homes/home-1/Facts";
-import Hero from "@/components/homes/home-1/Hero";
-import Offering from "@/components/homes/home-1/Offering";
-import Pricing from "@/components/homes/home-1/Pricing";
-import Process from "@/components/homes/home-1/Process";
-import Projects from "@/components/homes/home-1/Projects";
-import Services from "@/components/homes/home-1/Services";
-import Services2 from "@/components/homes/home-1/Services2";
-import Team from "@/components/homes/home-1/Team";
-import Testimonials from "@/components/homes/home-1/Testimonials";
-import VideoBox from "@/components/homes/home-1/VideoBox";
+import Footer1 from "@/components/footers/Footer1";
+import Header2 from "@/components/headers/Header2";
+import HeaderTop2 from "@/components/headers/HeaderTop2";
+import About from "@/components/homes/home-2/About";
+import Blog from "@/components/homes/home-2/Blog";
+import Contact from "@/components/homes/home-2/Contact";
+import Cta2 from "@/components/homes/home-2/Cta";
+import Facts from "@/components/homes/home-2/Facts";
+import Hero from "@/components/homes/home-2/Hero";
+import Projects from "@/components/homes/home-2/Projects";
+import Services from "@/components/homes/home-2/Services";
+import Skills from "@/components/homes/home-2/Skills";
+import Team from "@/components/homes/home-2/Team";
+import Testimonials from "@/components/homes/home-2/Testimonials";
+import TextSlider from "@/components/homes/home-2/TextSlider";
+import VideoBox from "@/components/homes/home-2/VideoBox";
+import React from "react";
 export const metadata = {
-  title: "Home 1 || Techbe-IT Solution & Technology Service Nextjs Template",
+  title: "Home 2 || Techbe-IT Solution & Technology Service Nextjs Template",
   description: "Techbe-IT Solution & Technology Service Nextjs Template",
 };
-export default function Home1() {
+export default function page() {
   return (
     <>
-      <HeaderTop />
-      <Header1 />
+      <HeaderTop2 />
+      <Header2 />
       <main className="main position-relative" id="mains">
         <Hero />
+        <Facts />
         <Services />
         <About />
-        <Services2 />
-        <Offering />
+        <Cta2 />
+        <Projects />
+        <TextSlider />
         <VideoBox />
         <Team />
-        <Projects />
-        <Process />
-        <Facts />
-        <Pricing />
+        <Skills />
         <Testimonials />
+        <Contact />
         <Blog />
         <Cta />
       </main>
