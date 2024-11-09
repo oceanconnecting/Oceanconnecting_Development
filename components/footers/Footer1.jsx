@@ -77,15 +77,15 @@ export default function Footer1() {
                     <div className="about-logo">
                       <Link scroll={false} href={`/`}>
                         <Image
-                          src="/assets/img/logo-white.png"
-                          width={199}
+                          src="/assets/img/OCEANCONNECTING.svg"
+                          width={119}
                           height={42}
                           alt="Realar"
                         />
                       </Link>
                     </div>
                     <p className="about-text">
-                      TechBe IT is a dynamic and innovative technology company
+                      Ocean connecting is a dynamic and innovative technology company
                       dedicated to solutions.
                     </p>
                     <div className="gt-social style2">
@@ -176,13 +176,13 @@ export default function Footer1() {
                       <li className="text-white">
                         <i className="fa-thin fa-envelope" />
                       </li>
-                      <li className="text-white">info@example.com</li>
+                      <li className="text-white">oceanconnecting.ma@gmail.com</li>
                     </ul>
                     <ul className="ps-0">
                       <li className="text-white">
                         <i className="fa-light fa-phone-volume" />
                       </li>
-                      <li className="text-white">+208-6666-0112</li>
+                      <li className="text-white">+212-663116836</li>
                     </ul>
                     <form
                       ref={form}

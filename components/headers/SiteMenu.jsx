@@ -81,15 +81,20 @@ export default function SiteMenu() {
               <Link href="/">
                 <Image
                   alt="techo"
-                  src="/assets/img/logo-dark.png"
-                  width="199"
+                  src="/assets/img/ocean3.png"
+                  width="109"
                   height="42"
                 />
+                {/* <Image
+                          src="/assets/img/OCEANCONNECTING.svg"
+                          width={119}
+                          height={42}
+                          alt="Realar"
+                        /> */}
               </Link>
             </div>
             <p className="text">
-              Rapidiously myocardinate cross-platform intellectual capital
-              model. Appropriately create interactive infrastructures
+            Our team crafts seamless websites and mobile applications that elevate user experience and drive growth. Let us help you bring your vision to life.
             </p>
           </div>
         </div>
@@ -106,8 +111,8 @@ export default function SiteMenu() {
                 />
               </div>
               <div className="details">
-                <p>789 Inner Lane, Holy park,</p>
-                <p>California, USA</p>
+                <p>Islan</p>
+                <p>Agadir, Morocco</p>
               </div>
             </div>
             <div className="info-box_text">
@@ -122,14 +127,14 @@ export default function SiteMenu() {
               <div className="details">
                 <p>
                   <a href="tel:+0123456789" className="info-box_link">
-                    +01 234 567 890
+                  +212-663116836
                   </a>
                 </p>
-                <p>
+                {/* <p>
                   <a href="tel:+09876543210" className="info-box_link">
                     +09 876 543 210
                   </a>
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="info-box_text">
@@ -144,18 +149,18 @@ export default function SiteMenu() {
               <div className="details">
                 <p>
                   <a
-                    href="mailto:mailinfo00@techo.com"
+                    href="oceanconnecting.ma@gmail.com"
                     className="info-box_link"
                   >
-                    mailinfo00@techo.com
+                    oceanconnecting.ma@gmail.com
                   </a>
                 </p>
                 <p>
                   <a
-                    href="mailto:support24@techo.com"
+                    href="oceanconnecting.support@gmail.com"
                     className="info-box_link"
                   >
-                    support24@techo.com
+                    oceanconnecting.support@gmail.com
                   </a>
                 </p>
               </div>
