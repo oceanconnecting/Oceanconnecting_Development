@@ -14,7 +14,7 @@ export const menuItems = [
   },
   {
     title: "Services",
-    href: "/service-1",
+    href: "/service-2",
     // subMenu: [
     //   { title: "Services One", href: "/service-1" },
     //   { title: "Services Two", href: "/service-2" },
