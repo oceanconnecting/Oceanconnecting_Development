@@ -8,8 +8,8 @@ import Link from "next/link";
 import { allBlogs } from "@/data/blogs";
 export const metadata = {
   title:
-    "Blog Details || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+    "Blog Details || ocean connecting Solution & Technology Service Nextjs Template",
+  description: "ocean connecting Solution & Technology Service Nextjs Template",
 };
 export default function Page({ params }) {
   const blogItem =

@@ -7,8 +7,8 @@ import Blogs2 from "@/components/otherPages/blog/Blogs2";
 import Link from "next/link";
 export const metadata = {
   title:
-    "Blog Standard || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+    "Blog Standard || ocean connecting Solution & Technology Service Nextjs Template",
+  description: "ocean connecting Solution & Technology Service Nextjs Template",
 };
 export default function Page() {
   return (

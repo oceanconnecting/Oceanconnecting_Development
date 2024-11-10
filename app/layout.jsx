@@ -69,6 +69,7 @@ export default function RootLayout({ children }) {
           pauseOnHover
         />
         {children}
+        
         <CursorFollor />
         <ScrollTop />
       </body>

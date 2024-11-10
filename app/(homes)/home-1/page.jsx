@@ -18,8 +18,8 @@ import VideoBox from "@/components/homes/home-2/VideoBox";
 import React from "react";
 
 export const metadata = {
-  title: "Home 1 || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+  title: "Home  || Ocean connecting Solution & Technology Service  ",
+  description: "Ocean connecting Solution & Technology Service  ",
 };
 
 export default function page() {

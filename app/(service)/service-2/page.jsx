@@ -10,8 +10,8 @@ import Pricing from "@/components/homes/home-3/Pricing";
 import Services2 from "@/components/otherPages/service/Services2";
 import Link from "next/link";
 export const metadata = {
-  title: "Service 2 || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+  title: "Service  ||ocean connecting Solution & Technology Service Nextjs Template",
+  description: "ocean connecting Solution & Technology Service Nextjs Template",
 };
 export default function Page() {
   return (
@@ -28,7 +28,7 @@ export default function Page() {
             <div className="container">
               <div className="page-heading">
                 <h1 className="wow fadeInUp" data-wow-delay=".3s">
-                  Services 02
+                  Services 
                 </h1>
                 <ul
                   className="breadcrumb-items wow fadeInUp"
@@ -43,7 +43,7 @@ export default function Page() {
                   <li>
                     <i className="fas fa-chevrons-right" />
                   </li>
-                  <li>Services 02</li>
+                  <li>Services </li>
                 </ul>
               </div>
             </div>

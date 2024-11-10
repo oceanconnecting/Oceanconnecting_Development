@@ -1,7 +1,7 @@
 import Home1 from "./(homes)/home-1/page";
 export const metadata = {
-  title: "Home 1 || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+  title: "Home  || Ocean connecting Solution & Technology Service  ",
+  description: "ocean connecting Solution & Technology Service ",
 };
 export default function Page() {
   return (
