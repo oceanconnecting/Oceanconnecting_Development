@@ -201,18 +201,6 @@ export const newsItems = [
       "Ensuring the safety and high availability of your business is crucial in today’s competitive and digital-driven environment. Here are some key strategies to help you maintain security and reliability.",
     delay: ".4s",
   },
-  {
-    id: 15,
-    imgSrc: "/assets/img/blog/blogCardThumb3_3.png",
-    date: "28",
-    month: "Feb",
-    user: "By Admin",
-    comments: "0 Comments",
-    title: "Tackling the Changes of Retell Industry",
-    description:
-      "The retail industry is undergoing significant transformations driven by technological advancements, changing consumer preferences, and evolving market dynamics. To stay competitive and thrive in ...",
-    delay: ".6s",
-  },
 ];
 
 export const recentItems = [
