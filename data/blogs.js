@@ -204,12 +204,7 @@ export const newsItems = [
 ];
 
 export const recentItems = [
-  {
-    id: 16,
-    imgSrc: "/assets/img/blog/blogRecentThumb3_1.png",
-    date: "18 Dec, 2024",
-    title: "Keep Your Business Safe & \n Endure High Availability",
-  },
+ 
   {
     id: 17,
     imgSrc: "/assets/img/blog/blogRecentThumb3_2.png",
