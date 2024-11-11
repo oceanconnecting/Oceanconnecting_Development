@@ -111,8 +111,7 @@ export default function SiteMenu() {
                 />
               </div>
               <div className="details">
-                <p>Islan</p>
-                <p>Agadir, Morocco</p>
+                <p>Immeubles Coralia, 2ème étage, ISLAN, Hay Mohammadi, AGADIR</p>
               </div>
             </div>
             <div className="info-box_text">

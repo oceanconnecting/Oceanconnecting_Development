@@ -76,7 +76,7 @@ export default function Contact() {
                       <div className="content">
                         <p>Call Us 7/24</p>
                         <h3>
-                          <a href="tel:+2085550112">+208-555-0112</a>
+                          <a href="tel:+2085550112">+212 663116836</a>
                         </h3>
                       </div>
                     </div>
@@ -107,7 +107,7 @@ export default function Contact() {
                         <p>Make a Quote</p>
                         <h3>
                           <a href="mailto:infotech@gmail.com">
-                            Infotech@gmail.com
+                          oceanconnecting.ma@gmail.com
                           </a>
                         </h3>
                       </div>
@@ -137,7 +137,7 @@ export default function Contact() {
                       </div>
                       <div className="content">
                         <p>Location</p>
-                        <h3>4517 Washington ave.</h3>
+                        <h3>Immeubles Coralia, 2ème étage, ISLAN, Hay Mohammadi, AGADIR</h3>
                       </div>
                     </div>
                   </div>
