@@ -14,7 +14,7 @@ export const teamMembers = [
   {
     id: 3,
     imgSrc: "/assets/img/picdev/zakaria.svg",
-    name: "ENNACHOUM ZAKARIA",
+    name: "Ennachoum Zakaria",
     position: "Full stack developer ",
   },
   {

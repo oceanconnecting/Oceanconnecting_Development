@@ -40,7 +40,7 @@ export default function page() {
         <Skills />
         <Testimonials />
         <Contact />
-        <Blog />
+        {/* <Blog /> */}
         <Cta />
       </main>
       <Footer1 />
