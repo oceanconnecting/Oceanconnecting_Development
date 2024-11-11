@@ -31,7 +31,7 @@ export default function Home2() {
         <Services2 />
         <Offering />
         <VideoBox />
-        <Team />
+        <Team/>
         <Projects />
         <Process />
         <Facts />

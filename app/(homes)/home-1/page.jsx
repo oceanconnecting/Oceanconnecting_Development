@@ -33,7 +33,7 @@ export default function page() {
         <Services />
         <About />
         <Cta2 />
-        <Projects />
+        {/* <Projects /> */}
         <TextSlider />
         <VideoBox />
         <Team />
