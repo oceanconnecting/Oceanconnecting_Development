@@ -16,7 +16,6 @@ export default function Pagination() {
       setCurrentPage(currentPage - 1);
     }
   };
-
   const handleNextClick = () => {
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);

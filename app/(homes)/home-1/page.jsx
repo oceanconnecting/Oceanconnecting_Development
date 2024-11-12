@@ -3,12 +3,11 @@ import Footer1 from "@/components/footers/Footer1";
 import Header2 from "@/components/headers/Header2";
 import HeaderTop2 from "@/components/headers/HeaderTop2";
 import About from "@/components/homes/home-2/About";
-import Blog from "@/components/homes/home-2/Blog";
 import Contact from "@/components/homes/home-2/Contact";
 import Cta2 from "@/components/homes/home-2/Cta";
 import Facts from "@/components/homes/home-2/Facts";
 import Hero from "@/components/homes/home-2/Hero";
-import Projects from "@/components/homes/home-2/Projects";
+
 import Services from "@/components/homes/home-2/Services";
 import Skills from "@/components/homes/home-2/Skills";
 import Team from "@/components/homes/home-2/Team";
@@ -33,14 +32,14 @@ export default function page() {
         <Services />
         <About />
         <Cta2 />
-        {/* <Projects /> */}
+        
         <TextSlider />
         <VideoBox />
         <Team />
         <Skills />
         <Testimonials />
         <Contact />
-        {/* <Blog /> */}
+       
         <Cta />
       </main>
       <Footer1 />

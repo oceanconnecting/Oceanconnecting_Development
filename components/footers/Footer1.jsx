@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { recentPosts } from "@/data/blogs";
 import { socialLinks2 } from "@/data/socials";
 import { footerLinks } from "@/data/footer";
 import emailjs from "@emailjs/browser";
@@ -118,53 +117,7 @@ export default function Footer1() {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-4 col-md-6 col-12">
-                <div
-                  className="widget footer-widget wow fadeInUp"
-                  data-wow-delay="1.3s"
-                >
-                  <h3 className="widget_title">Recent Posts</h3>
-                  <div className="recent-post-wrap">
-                    {recentPosts.map((post) => (
-                      <div className="recent-post" key={post.id}>
-                        <div className="media-img">
-                          <Link
-                            scroll={false}
-                            href={`/blog-details/${post.id}`}
-                          >
-                            <Image
-                              src={post.imageUrl}
-                              width={78}
-                              height={79}
-                              alt="thumb"
-                            />
-                          </Link>
-                        </div>
-                        <div className="media-body">
-                          <div className="recent-post-meta">
-                            <Link
-                              scroll={false}
-                              href={`/blog-details/${post.id}`}
-                            >
-                              <i className="fa-regular fa-clock" />
-                              {post.date}
-                            </Link>
-                          </div>
-                          <h4 className="post-title">
-                            <Link
-                              scroll={false}
-                              className="text-inherit"
-                              href={`/blog-details/${post.id}`}
-                            >
-                              {post.title}
-                            </Link>
-                          </h4>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
+              
               <div className="col-xl-3 col-md-6 col-12">
                 <div
                   className="widget widget_nav_menu footer-widget wow fadeInUp"
