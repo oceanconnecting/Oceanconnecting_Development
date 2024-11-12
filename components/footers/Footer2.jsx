@@ -46,7 +46,7 @@ export default function Footer2() {
     <footer
       className="footer-area"
       data-bg-src
-      style={{ backgroundImage: "url(/assets/img/bg/footerBg2.png)" }}
+      style={{ backgroundImage: "url(/assets/img/bg/footerBg2.png)"}}
     >
       <div className="widget-area style2  pt-0 pb-90">
         <div className="shape2_1 d-none d-xl-block">

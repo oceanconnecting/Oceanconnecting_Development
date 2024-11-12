@@ -14,7 +14,6 @@ import Team from "@/components/homes/home-2/Team";
 import Testimonials from "@/components/homes/home-2/Testimonials";
 import TextSlider from "@/components/homes/home-2/TextSlider";
 import VideoBox from "@/components/homes/home-2/VideoBox";
-console.log("fd")
 export const metadata = {
   title: "Home  || Ocean connecting Solution & Technology Service  ",
   description: "Ocean connecting Solution & Technology Service  ",

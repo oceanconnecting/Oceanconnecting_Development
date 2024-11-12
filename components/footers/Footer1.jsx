@@ -190,10 +190,10 @@ export default function Footer1() {
             </div>
             <div className="layout-link wow fadeInUp" data-wow-delay=".6s">
               <div className="link-wrapper">
-                <Link scroll={false} href={`/home-3`}>
+                <Link scroll={false} href={`/`}>
                   Terms &amp; Condition{" "}
                 </Link>
-                <Link scroll={false} href={`/home-3`}>
+                <Link scroll={false} href={`/`}>
                   Privacy Policy
                 </Link>
               </div>
