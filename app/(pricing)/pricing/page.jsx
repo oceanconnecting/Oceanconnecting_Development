@@ -5,8 +5,8 @@ import Cta from "@/components/common/Cta";
 import Pricing from "@/components/homes/home-3/Pricing";
 import Link from "next/link";
 export const metadata = {
-  title: "Pricing || ocean connecting Solution & Technology Service Nextjs Template",
-  description: "ocean connecting Solution & Technology Service Nextjs Template",
+  title: "Pricing || Ocean connecting Solution & Technology Service Nextjs Template",
+  description: "Ocean connecting Solution & Technology Service Nextjs Template",
 };
 export default function Page() {
   return (
