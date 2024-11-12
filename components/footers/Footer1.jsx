@@ -183,7 +183,7 @@ export default function Footer1() {
               <p className="copyright">
                 <i className="fal fa-copyright" /> All Copyright 2024 by
                 <Link scroll={false} href={`/`}>
-                  Ocean connecting developers
+                    Ocean connecting developers
                 </Link>
               </p>
             </div>
