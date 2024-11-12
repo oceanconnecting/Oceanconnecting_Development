@@ -6,8 +6,8 @@ import Contact from "@/components/otherPages/contact/Contact";
 import Map from "@/components/otherPages/contact/Map";
 import Link from "next/link";
 export const metadata = {
-  title: "Contact || ocean connecting Solution & Technology Service Nextjs Template",
-  description: "ocean connecting Solution & Technology Service Nextjs Template",
+  title: "Contact || ocean connecting Solution & Technology Service  ",
+  description: "ocean connecting Solution & Technology Service",
 };
 export default function Page() {
   return (
