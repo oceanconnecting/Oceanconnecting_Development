@@ -5,7 +5,7 @@ import About from "@/components/homes/home-3/About";
 import DownloadApp from "@/components/homes/home-3/DownloadApp";
 import Features from "@/components/homes/home-3/Features";
 import Hero from "@/components/homes/home-3/Hero";
-import Pricing from "@/components/homes/home-3/Pricing";
+
 import Screenshoots from "@/components/homes/home-3/Screenshoots";
 import Service2 from "@/components/homes/home-3/Service2";
 import Services from "@/components/homes/home-3/Services";
@@ -27,7 +27,7 @@ export default function Page() {
         <Features />
         <Service2 />
         <Screenshoots />
-        <Pricing />
+     
         <Skills />
         <Testimonials />
         <DownloadApp />

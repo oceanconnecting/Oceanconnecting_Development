@@ -6,7 +6,6 @@ import Cta from "@/components/common/Cta";
 
 import TextSlider from "@/components/homes/home-2/TextSlider";
 import VideoBox from "@/components/homes/home-2/VideoBox";
-import Pricing from "@/components/homes/home-3/Pricing";
 import Services2 from "@/components/otherPages/service/Services2";
 import Link from "next/link";
 export const metadata = {
@@ -52,7 +51,7 @@ export default function Page() {
         <Services2 />
         <TextSlider />
         <VideoBox />
-        <Pricing />
+       
         <div className="pb-300"></div>
         <Cta />
       </main>
