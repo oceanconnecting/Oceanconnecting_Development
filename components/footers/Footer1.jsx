@@ -10,7 +10,6 @@ import React, { useRef } from "react";
 
 export default function Footer1() {
   const form = useRef();
-
   const sandMail = (e) => {
     e.preventDefault();
     emailjs
@@ -184,7 +183,7 @@ export default function Footer1() {
               <p className="copyright">
                 <i className="fal fa-copyright" /> All Copyright 2024 by
                 <Link scroll={false} href={`/`}>
-                  Techbe
+                  Ocean connecting developers
                 </Link>
               </p>
             </div>

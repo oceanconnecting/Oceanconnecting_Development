@@ -170,7 +170,7 @@ export default function Footer2() {
               <p className="copyright">
                 <i className="fal fa-copyright" /> All Copyright 2024 by{" "}
                 <Link scroll={false} href={`/`}>
-                  Techbe
+                Ocean connecting developers
                 </Link>
               </p>
             </div>
