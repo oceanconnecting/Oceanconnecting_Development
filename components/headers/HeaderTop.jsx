@@ -20,7 +20,7 @@ export default function HeaderTop() {
           <div className="top-right">
             <div className="social-icon d-flex align-items-center">
               <span>Follow Us:</span>
-              <a href="#">
+              <a href="https://web.facebook.com/oceanconnecting.dev?mibextid=LQQJ4d&rdid=qX7GpOEtQuHKB3Oh&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F14zVFrCuTJ%2F%3Fmibextid%3DLQQJ4d%26_rdc%3D1%26_rdr">
                 <i className="fab fa-facebook-f" />
               </a>
               <a href="#">

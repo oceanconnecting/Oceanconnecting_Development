@@ -135,7 +135,7 @@ export default function About() {
                       </div>
                       <div className="counter-box_counter">
                         <div>
-                          <span className="counter-number">6,561</span>
+                          <span className="counter-number">561</span>
                           <span className="plus">+</span>
                         </div>
                         <span>Satisfied Clients</span>

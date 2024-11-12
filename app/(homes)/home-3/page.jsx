@@ -5,7 +5,6 @@ import About from "@/components/homes/home-3/About";
 import DownloadApp from "@/components/homes/home-3/DownloadApp";
 import Features from "@/components/homes/home-3/Features";
 import Hero from "@/components/homes/home-3/Hero";
-
 import Screenshoots from "@/components/homes/home-3/Screenshoots";
 import Service2 from "@/components/homes/home-3/Service2";
 import Services from "@/components/homes/home-3/Services";
