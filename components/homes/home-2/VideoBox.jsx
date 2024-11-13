@@ -27,7 +27,7 @@ export default function VideoBox() {
         channel="youtube"
         youtube={{ mute: 0, autoplay: 0 }}
         isOpen={isOpen}
-        videoId="f2Gzr8sAGB8"
+        videoId="ZUyyDk4GdVI"
         onClose={() => setOpen(false)}
       />
     </>
