@@ -14,7 +14,7 @@ export default function HeaderTop2() {
             </li>
             <li>
               <i className="fa-solid fa-phone-volume" />
-              <a href="tel:2086660112">+212-663116836</a>
+              <a href="tel:2086660112">+212-704309787</a>
             </li>
           </ul>
           <div className="top-right">
