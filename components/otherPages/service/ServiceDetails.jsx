@@ -93,20 +93,7 @@ export default function ServiceDetails({ serviceItem }) {
                     <h3 className="wow fadeInUp" data-wow-delay=".6s">
                       {serviceItem.title}
                     </h3>
-                    <p className="mt-3 wow fadeInUp" data-wow-delay=".9s">
-                      The is ipsum dolor sit amet consectetur adipiscing elit.
-                      Fusce is eleifend porta arcu In hac habitasse the platea
-                      thelorem turpoi dictumst. In lacus libero faucibus
-                      malesuada sagittis placerat eros sed istincidunt augue ac
-                      ante rutrum sed the is sodales augue consequat.
-                    </p>
-                    <p className="mt-3 wow fadeInUp" data-wow-delay="1.2s">
-                      lacus sed pretium pretium justo. Integer is vitae
-                      venenatis lorem. Maecenas lacinia turpis the in nunc quam
-                      hendrerit scelerisque at finibus enim sagittis. Aliquam
-                      erat is volutpat nam nec purus at is orci volutpat semper
-                      vel id turpis In a malesuada arcu ac hendrerit.
-                    </p>
+                   
                     <div
                       className="details-video-items wow fadeInUp"
                       data-wow-delay="1.3s"
@@ -128,8 +115,7 @@ export default function ServiceDetails({ serviceItem }) {
                       <div className="content">
                         <h4>Benefits With Our Service</h4>
                         <p>
-                          Fusce is eleifend porta arcu In hac <br />
-                          habitasse the platea thelorem
+                         
                         </p>
                         <ul className="list ps-0">
                           <li>
@@ -148,11 +134,7 @@ export default function ServiceDetails({ serviceItem }) {
                       </div>
                     </div>
                     <p className="mb-40 wow fadeInUp" data-wow-delay="1.5s">
-                      Consectetur adipisicing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore of magna aliqua. Ut enim ad
-                      minim veniam, made of owl the quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea dolor commodo
-                      consequat. Duis aute irure and dolor in reprehenderit.
+               
                     </p>
                     <div
                       className="image-area wow fadeInUp"
@@ -185,10 +167,7 @@ export default function ServiceDetails({ serviceItem }) {
                       Most Comment Question?
                     </h3>
                     <p className="mt-25 wow fadeInUp" data-wow-delay="1.9s">
-                      The is ipsum dolor sit amet consectetur adipiscing elit.
-                      Fusce is eleifend porta arcu In hac habitasse the platea
-                      thelorem turpoi dictumst. In lacus libero faucibus
-                      malesuada.
+                      
                     </p>
                   </div>
                   <div className="faq-content style-3">
