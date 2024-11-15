@@ -94,7 +94,8 @@ export default function SiteMenu() {
               </Link>
             </div>
             <p className="text">
-            Our team crafts seamless websites and mobile applications that elevate user experience and drive growth. Let us help you bring your vision to life.
+              
+            Ocean connecting Our team crafts seamless websites and mobile applications that elevate user experience and drive growth. Let us help you bring your vision to life.
             </p>
           </div>
         </div>
