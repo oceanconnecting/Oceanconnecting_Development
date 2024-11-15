@@ -21,7 +21,7 @@ export default function Header2() {
                       src="/assets/img/OCEANCONNECTING.svg"
                       width={109}
                       height={42}
-                      alt="techo"
+                      alt="oceanconnecting"
                     />
                   </Link>
                 </div>

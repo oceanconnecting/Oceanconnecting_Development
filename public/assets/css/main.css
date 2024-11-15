@@ -10359,14 +10359,14 @@ textarea.is-invalid {
 .faq-content .accordion-item .accordion-header .accordion-button:after {
   font-weight: 500;
   transition: all 0.3s ease-in-out !important;
-  background-image: url(../../assets/img/techo-img/icon/chevron-right.svg);
+  background-image: url(../../assets/img/oceanconnecting-img/icon/chevron-right.svg);
   color: var(--theme-color2);
 }
 .faq-content
   .accordion-item
   .accordion-header
   .accordion-button:not(.collapsed):after {
-  background-image: url(../../assets/img/techo-img/icon/chevron-down.svg);
+  background-image: url(../../assets/img/oceanconnecting-img/icon/chevron-down.svg);
   font-weight: 500;
   color: var(--theme-color2);
   transform: rotate(0);

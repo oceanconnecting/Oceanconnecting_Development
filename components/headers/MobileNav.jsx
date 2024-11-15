@@ -77,7 +77,7 @@ export default function MobileNav() {
         <div className="mobile-logo">
           <Link scroll={false} href="/">
             <Image
-              alt="techo"
+              alt="oceanconnecting"
               src="/assets/img/ocean3.png"
               width="109"
               height="42"

@@ -80,7 +80,7 @@ export default function SiteMenu() {
             <div className="about-logo">
               <Link href="/">
                 <Image
-                  alt="techo"
+                  alt="oceanconnecting"
                   src="/assets/img/ocean3.png"
                   width="109"
                   height="42"
