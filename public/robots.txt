@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# BadBot
+User-agent: BadBot
+Disallow: /
+
+# Host
+Host: https://www.oceanconnecting.dev
+
+# Sitemaps
+Sitemap: https://www.oceanconnecting.dev/sitemap.xml
