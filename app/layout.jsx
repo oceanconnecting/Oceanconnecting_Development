@@ -52,6 +52,31 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
           rel="stylesheet"
         />
+         <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Ocean Connecting - Professional development services specializing in creating websites and mobile applications tailored to your needs."
+        />
+        <meta name="keywords" content="Ocean Connecting, website development, mobile app development, web design, Agadir development services" />
+        <meta name="author" content="Ocean Connecting" />
+        <meta property="og:title" content="Ocean Connecting - Development Services" />
+        <meta
+          property="og:description"
+          content="Expert development services from Ocean Connecting, including custom websites and mobile apps. Delivering innovative digital solutions."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.oceanconnecting.dev" />
+        <meta property="og:image" content="https://www.oceanconnecting.dev/ocean3.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Ocean Connecting - Development Services" />
+        <meta
+          name="twitter:description"
+          content="Custom website and mobile app development by Ocean Connecting."
+        />
+        <meta name="twitter:image" content="https://www.oceanconnecting.dev/ocean3.png" />
+
+        <title>Ocean Connecting - Development Services</title>
       </head>
       <body>
         <SiteMenu />
