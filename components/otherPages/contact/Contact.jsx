@@ -76,7 +76,7 @@ export default function Contact() {
                       <div className="content">
                         <p>Call Us 7/24</p>
                         <h3>
-                          <a href="tel:+2085550112">+212 663116836</a>
+                          <a href="tel:+2085550112">+212-704309787</a>
                         </h3>
                       </div>
                     </div>
