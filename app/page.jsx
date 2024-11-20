@@ -1,5 +1,5 @@
 import React from "react";
-import Home1 from "./(homes)/home-1/page";
+import Home1 from "./(homes)/home/page";
 export const metadata = {
   title: "Home  || Ocean connecting Solution & Technology Service  ",
   description: "Ocean connecting Solution & Technology Service ",
