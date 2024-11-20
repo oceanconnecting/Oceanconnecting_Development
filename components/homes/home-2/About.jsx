@@ -152,18 +152,8 @@ export default function About() {
                     EXPLORE MORE
                   </Link>
                   <div className="fancy-box style1">
-                    <div className="fancy-box_icon">
-                      <Image
-                        alt="img"
-                        src="/assets/img/about/aboutProfile1_1.png"
-                        width="56"
-                        height="56"
-                      />
-                    </div>
-                    <div className="fancy-box_content">
-                      <h4>Ronald Richards</h4>
-                      <span>Co, Founder</span>
-                    </div>
+                    
+                    
                   </div>
                 </div>
               </div>

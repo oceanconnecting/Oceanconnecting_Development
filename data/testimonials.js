@@ -90,13 +90,7 @@ export const testimonials2 = [
     name: "Theresa Webb",
     designation: "Tech enthusiast",
   },
-  {
-    stars: 4,
-    text: "oceanconnecting offers exceptional value for money. The comprehensive suite of tools and seamless integration with various plugins and services make it a for all",
-    image: "/assets/img/testimonial/testiThumb3_3.png",
-    name: "Ronald Richards",
-    designation: "Web Entrepreneur",
-  },
+ 
   {
     stars: 4,
     text: "oceanconnecting has completely transformed our process. The user-friendly interface and powerful features maintaining our website. Highly recommended for all!",
@@ -111,12 +105,6 @@ export const testimonials2 = [
     name: "Theresa Webb",
     designation: "Tech enthusiast",
   },
-  {
-    stars: 4,
-    text: "oceanconnecting offers exceptional value for money. The comprehensive suite of tools and seamless integration with various plugins and services make it a for all",
-    image: "/assets/img/testimonial/testiThumb3_3.png",
-    name: "Ronald Richards",
-    designation: "Web Entrepreneur",
-  },
+ 
   // Add more testimonials here if needed
 ];
