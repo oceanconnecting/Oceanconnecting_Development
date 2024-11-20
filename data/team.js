@@ -82,7 +82,7 @@ export const teamMembers3 = [
     imgSrc: "/assets/img/team/teamThumb1_1.png",
     bgSrc: "/assets/img/bg/teamThumbBg1_1.png",
     name: "Darrell Steward",
-    position: "President of Sales",
+    position: "",
     delay: ".3s",
   },
   {
@@ -90,7 +90,7 @@ export const teamMembers3 = [
     imgSrc: "/assets/img/team/teamThumb1_2.png",
     bgSrc: "/assets/img/bg/teamThumbBg1_1.png",
     name: "Wade Warren",
-    position: "Warren Designer",
+    position: "",
     delay: ".6s",
   },
   {
@@ -98,7 +98,7 @@ export const teamMembers3 = [
     imgSrc: "/assets/img/team/teamThumb1_3.png",
     bgSrc: "/assets/img/bg/teamThumbBg1_1.png",
     name: "Albert Flores",
-    position: "Marketing",
+    position: "",
     delay: ".9s",
   },
   {
@@ -106,7 +106,7 @@ export const teamMembers3 = [
     imgSrc: "/assets/img/team/teamThumb1_4.png",
     bgSrc: "/assets/img/bg/teamThumbBg1_1.png",
     name: "Kathryn Murphy",
-    position: "Web Designer",
+    position: "",
     delay: "1.2s",
   },
   {
@@ -114,7 +114,7 @@ export const teamMembers3 = [
     imgSrc: "/assets/img/team/teamThumb1_5.png",
     bgSrc: "/assets/img/bg/teamThumbBg1_1.png",
     name: "Jenny Wilson",
-    position: "Medical Assistant",
+    position: "",
     delay: "1.4s",
   },
   {
@@ -122,7 +122,7 @@ export const teamMembers3 = [
     imgSrc: "/assets/img/team/teamThumb1_6.png",
     bgSrc: "/assets/img/bg/teamThumbBg1_1.png",
     name: "Jane Cooper",
-    position: "Nursing Assistant",
+    position: "",
     delay: "1.5s",
   },
 ];
