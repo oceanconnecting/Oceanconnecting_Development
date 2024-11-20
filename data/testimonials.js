@@ -81,14 +81,14 @@ export const testimonials2 = [
     text: "oceanconnecting has completely transformed our process. The user-friendly interface and powerful features maintaining our website. Highly recommended for all!",
     image: "/assets/img/testimonial/testiThumb3_1.png",
     name: "Kristin Watson",
-    designation: "Web Designer",
+    designation: "",
   },
   {
     stars: 4,
     text: "I've been using oceanconnecting for several months now, and I'm extremely impressed with the ease of customization it offers. The wide range of templates.",
     image: "/assets/img/testimonial/testiThumb3_2.png",
     name: "Theresa Webb",
-    designation: "Tech enthusiast",
+    designation: "",
   },
  
   {
@@ -96,14 +96,14 @@ export const testimonials2 = [
     text: "oceanconnecting has completely transformed our process. The user-friendly interface and powerful features maintaining our website. Highly recommended for all!",
     image: "/assets/img/testimonial/testiThumb3_1.png",
     name: "Kristin Watson",
-    designation: "Web Designer",
+    designation: "",
   },
   {
     stars: 4,
     text: "I've been using oceanconnecting for several months now, and I'm extremely impressed with the ease of customization it offers. The wide range of templates.",
     image: "/assets/img/testimonial/testiThumb3_2.png",
     name: "Theresa Webb",
-    designation: "Tech enthusiast",
+    designation: "",
   },
  
   // Add more testimonials here if needed
