@@ -8,7 +8,7 @@ import CursorFollor from "@/components/common/CursorFollor";
 import { usePathname } from "next/navigation";
 import { ToastContainer } from "react-toastify";
 import PopupSearch from "@/components/headers/PopupSearch";
-
+import { Analytics } from "@vercel/analytics/react"
 export default function RootLayout({ children }) {
   const path = usePathname();
   useEffect(() => {
@@ -93,6 +93,7 @@ export default function RootLayout({ children }) {
           draggable
           pauseOnHover
         />
+        <Analytics/>
         {children}
         
         <CursorFollor />
