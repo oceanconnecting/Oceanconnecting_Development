@@ -128,13 +128,13 @@ export default function Footer1() {
                       <li className="text-white">
                         <i className="fa-thin fa-envelope" />
                       </li>
-                      <li className="text-white">oceanconnecting.ma@gmail.com</li>
+                      <li className="text-white">oceanconnecting.dev@gmail.com</li>
                     </ul>
                     <ul className="ps-0">
                       <li className="text-white">
                         <i className="fa-light fa-phone-volume" />
                       </li>
-                      <li className="text-white">+212-704309787</li>
+                      <li className="text-white">+4915738023049</li>
                     </ul>
                     <form
                       ref={form}

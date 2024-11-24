@@ -9,12 +9,12 @@ export default function HeaderTop2() {
             <li>
               <i className="far fa-envelope" />
               <a href="mailto:info@example.com" className="link">
-              oceanconnecting.ma@gmail.com
+              oceanconnecting.dev@gmail.com
               </a>
             </li>
             <li>
               <i className="fa-solid fa-phone-volume" />
-              <a href="tel:2086660112">+212-704309787</a>
+              <a href="tel:2086660112">+4915738023049</a>
             </li>
           </ul>
           <div className="top-right">

@@ -112,7 +112,7 @@ export default function SiteMenu() {
                 />
               </div>
               <div className="details">
-                <p>Immeubles Coralia, 2ème étage, ISLAN, Hay Mohammadi, AGADIR</p>
+                <p>Praunheimer Landstraße 32 | 60488 Frankfurt am Main</p>
               </div>
             </div>
             <div className="info-box_text">
@@ -127,7 +127,7 @@ export default function SiteMenu() {
               <div className="details">
                 <p>
                   <a href="tel:+0123456789" className="info-box_link">
-                  +212-663116836
+                  +49157380230496836
                   </a>
                 </p>
                 {/* <p>
@@ -149,10 +149,10 @@ export default function SiteMenu() {
               <div className="details">
                 <p>
                   <a
-                    href="oceanconnecting.ma@gmail.com"
+                    href="oceanconnecting.dev@gmail.com"
                     className="info-box_link"
                   >
-                    oceanconnecting.ma@gmail.com
+                    oceanconnecting.dev@gmail.com
                   </a>
                 </p>
                 <p>

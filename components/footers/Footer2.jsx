@@ -121,7 +121,7 @@ export default function Footer2() {
                       <li className="text-white">
                         <i className="fa-light fa-phone-volume" />
                       </li>
-                      <li className="text-white">+212-704309787</li>
+                      <li className="text-white">+4915738023049</li>
                     </ul>
                     <form
                       ref={form}
