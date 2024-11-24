@@ -48,7 +48,7 @@ export default function Cta() {
                 Call Us Now
               </h4>
               <span className="text-white wow fadeInUp" data-wow-delay=".6s">
-                +212 663116836
+                +4915738023049
               </span>
             </div>
           </div>
