@@ -11,7 +11,7 @@ export default function Cta() {
       <div className="container">
         <div className="cta-wrap style1">
           <div className="shape1_1 rotate360 d-none d-xl-block">
-            <img
+            <Image
               alt="shape"
               width={80}
               height="80"

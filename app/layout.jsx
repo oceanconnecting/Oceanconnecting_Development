@@ -19,7 +19,6 @@ export default function RootLayout({ children }) {
       });
     }
   }, []);
-
   useEffect(() => {
     window.addEventListener("scroll", function () {
       var topPos = window.scrollY || document.documentElement.scrollTop;
