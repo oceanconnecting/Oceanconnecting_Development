@@ -1,24 +1,23 @@
 "use client";
+import dynamic from 'next/dynamic';
 import MobileNav from "@/components/headers/MobileNav";
 import "../public/assets/scss/styles.scss";
 import { useEffect } from "react";
 import SiteMenu from "@/components/headers/SiteMenu";
-import ScrollTop from "@/components/common/ScrollTop";
-import CursorFollor from "@/components/common/CursorFollor";
+
+
+const ScrollTop = dynamic(() => import('@/components/common/ScrollTop'), { ssr: false });
+const CursorFollor = dynamic(() => import('@/components/common/CursorFollor'), { ssr: false });
+
 import { usePathname } from "next/navigation";
 import { ToastContainer } from "react-toastify";
 import PopupSearch from "@/components/headers/PopupSearch";
 import { Analytics } from "@vercel/analytics/react"
 export default function RootLayout({ children }) {
   const path = usePathname();
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      // Import the script only on the client side
-      import("bootstrap/dist/js/bootstrap.esm").then(() => {
-        // Module is imported, you can access any exported functionality if
-      });
-    }
-  }, []);
+ 
+  
+  
   useEffect(() => {
     window.addEventListener("scroll", function () {
       var topPos = window.scrollY || document.documentElement.scrollTop;
