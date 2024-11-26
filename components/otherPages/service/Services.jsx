@@ -2,7 +2,7 @@ import { serviceItems } from "@/data/services";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-
+console.log('f')
 export default function Services() {
   return (
     <section className="all-services-area space-top">
