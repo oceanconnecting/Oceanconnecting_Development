@@ -5,7 +5,7 @@ import "../public/assets/scss/styles.scss";
 import { useEffect } from "react";
 import SiteMenu from "@/components/headers/SiteMenu";
 
-
+import { GoogleAnalytics } from '@next/third-parties/google'
 const ScrollTop = dynamic(() => import('@/components/common/ScrollTop'), { ssr: false });
 const CursorFollor = dynamic(() => import('@/components/common/CursorFollor'), { ssr: false });
 
@@ -93,7 +93,7 @@ export default function RootLayout({ children }) {
         />
         <Analytics/>
         {children}
-        
+        <GoogleAnalytics gaId="G-0TN0SPCER" />
         <CursorFollor />
         <ScrollTop />
       </body>
