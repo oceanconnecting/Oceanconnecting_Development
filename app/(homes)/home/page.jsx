@@ -1,8 +1,8 @@
 import dynamic from "next/dynamic";
 
 export const metadata = {
-  title: "Home || Ocean Connecting Solution & Technology Service",
-  description: "Ocean Connecting Solution & Technology Service",
+  title: "Home || Ocean Connecting offers innovative web and app development services, specializing in technology solutions tailored to your business needs.",
+  description: "Ocean Connecting offers innovative web and app development services, specializing in technology solutions tailored to your business needs.",
 };
 
 // Dynamic imports for components

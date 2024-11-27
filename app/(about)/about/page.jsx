@@ -11,7 +11,7 @@ import AboutCta from "@/components/otherPages/AboutCta";
 import Testimonials from "@/components/homes/home-2/Testimonials";
 import Link from "next/link";
 export const metadata = {
-  title: "About || Ocean connecting Solution & Technology Service Nextjs Template",
+  title: "About || Ocean Connecting offers innovative web and app development services, specializing in technology solutions tailored to your business needs. Nextjs Template",
   description: "Ocean connecting  & Technology Service Nextjs Template",
 };
 export default function Page() {

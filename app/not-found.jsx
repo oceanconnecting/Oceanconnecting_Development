@@ -7,8 +7,8 @@ import NotFound from "@/components/otherPages/NotFound";
 import Link from "next/link";
 export const metadata = {
   title:
-    "Page Not Found || Ocean connecting Solution & Technology Service  ",
-  description: "Ocean connecting Solution & Technology Service ",
+    "Page Not Found || Ocean Connecting offers innovative web and app development services, specializing in technology solutions tailored to your business needs.  ",
+  description: "Ocean Connecting offers innovative web and app development services, specializing in technology solutions tailored to your business needs. ",
 };
 export default function Page() {
   return (

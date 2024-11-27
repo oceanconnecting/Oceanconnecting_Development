@@ -7,8 +7,8 @@ import NotFound from "@/components/otherPages/NotFound";
 import Link from "next/link";
 export const metadata = {
   title:
-    "Page Not Found || ocean connecting Solution & Technology Service Nextjs Template",
-  description: "ocean connecting Solution & Technology Service Nextjs Template",
+    "Page Not Found || Ocean Connecting offers innovative web and app development services, specializing in technology solutions tailored to your business needs. Nextjs Template",
+  description: "Ocean Connecting offers innovative web and app development services, specializing in technology solutions tailored to your business needs. Nextjs Template",
 };
 export default function Page() {
   return (

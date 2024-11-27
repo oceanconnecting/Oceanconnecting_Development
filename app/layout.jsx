@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
         />
         <meta name="keywords" content="Ocean Connecting, website development, mobile app development, web design, Agadir development services" />
         <meta name="author" content="Ocean Connecting" />
-        <meta property="og:title" content="Ocean Connecting - Development Services" />
+        <meta property="og:title" content="Ocean Connecting - Web & App Development Solutions" />
         <meta
           property="og:description"
           content="Expert development services from Ocean Connecting, including custom websites and mobile apps. Delivering innovative digital solutions."
@@ -67,14 +67,14 @@ export default function RootLayout({ children }) {
         <meta property="og:url" content="https://www.oceanconnecting.dev" />
         <meta property="og:image" content="https://www.oceanconnecting.dev/ocean3.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Ocean Connecting - Development Services" />
+        <meta name="twitter:title" content="Ocean Connecting - Web & App Development Solutions" />
         <meta
           name="twitter:description"
           content="Custom website and mobile app development by Ocean Connecting."
         />
         <meta name="twitter:image" content="https://www.oceanconnecting.dev/ocean3.png" />
 
-        <title>Ocean Connecting - Development Services</title>
+        <title>Ocean Connecting - Web & App Development Solutions</title>
       </head>
       <body>
         <SiteMenu />

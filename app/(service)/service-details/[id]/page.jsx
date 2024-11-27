@@ -8,8 +8,8 @@ import Link from "next/link";
 import { allService } from "@/data/services";
 export const metadata = {
   title:
-    "Service Details|| ocean connecting Solution & Technology Service Nextjs Template",
-  description: "ocean connecting Solution & Technology Service Nextjs Template",
+    "Service Details|| Ocean Connecting offers innovative web and app development services, specializing in technology solutions tailored to your business needs. Nextjs Template",
+  description: "Ocean Connecting offers innovative web and app development services, specializing in technology solutions tailored to your business needs. Nextjs Template",
 };
 export default function Page({ params }) {
   const serviceItem =

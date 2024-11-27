@@ -6,8 +6,8 @@ import Contact from "@/components/otherPages/contact/Contact";
 import Map from "@/components/otherPages/contact/Map";
 import Link from "next/link";
 export const metadata = {
-  title: "Contact || ocean connecting Solution & Technology Service  ",
-  description: "ocean connecting Solution & Technology Service",
+  title: "Contact || Ocean Connecting offers innovative web and app development services, specializing in technology solutions tailored to your business needs.  ",
+  description: "Ocean Connecting offers innovative web and app development services, specializing in technology solutions tailored to your business needs.",
 };
 export default function Page() {
   return (

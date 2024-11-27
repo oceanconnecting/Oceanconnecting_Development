@@ -6,8 +6,8 @@ import Cta from "@/components/common/Cta";
 import Team1 from "@/components/otherPages/team/Team1";
 import Link from "next/link";
 export const metadata = {
-  title: "Team  || ocean connecting Solution & Technology Service Nextjs Template",
-  description: "ocean connecting Solution & Technology Service Nextjs Template",
+  title: "Team  || Ocean Connecting offers innovative web and app development services, specializing in technology solutions tailored to your business needs. Nextjs Template",
+  description: "Ocean Connecting offers innovative web and app development services, specializing in technology solutions tailored to your business needs. Nextjs Template",
 };
 export default function Page() {
   return (
