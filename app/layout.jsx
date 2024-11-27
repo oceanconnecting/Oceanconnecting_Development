@@ -13,6 +13,7 @@ import { usePathname } from "next/navigation";
 import { ToastContainer } from "react-toastify";
 import PopupSearch from "@/components/headers/PopupSearch";
 import { Analytics } from "@vercel/analytics/react"
+import Script from 'next/script';
 export default function RootLayout({ children }) {
   const path = usePathname();
  
@@ -79,6 +80,24 @@ export default function RootLayout({ children }) {
         <title>Ocean Connecting - Web & App Development Solutions</title>
       </head>
       <body>
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=G-0TN0SPCERJ`}
+        strategy="afterInteractive"
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-0TN0SPCERJ', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
         <SiteMenu />
         <MobileNav />
         <PopupSearch />
