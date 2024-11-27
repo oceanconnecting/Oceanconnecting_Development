@@ -45,6 +45,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" className="bg-white">
+      
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
@@ -56,6 +57,7 @@ export default function RootLayout({ children }) {
           name="description"
           content="Ocean Connecting - Professional development services specializing in creating websites and mobile applications tailored to your needs."
         />
+        
         <meta name="keywords" content="Ocean Connecting, website development, mobile app development, web design, Agadir development services" />
         <meta name="author" content="Ocean Connecting" />
         <meta property="og:title" content="Ocean Connecting - Web & App Development Solutions" />
