@@ -168,7 +168,8 @@
     }
 
     &:hover {
-      background: linear-gradient(90deg, #B42AF3 0%, #384BFF 83.46%);
+      background: linear-gradient(90deg, #2563eb 0%, #dc2626 123.82%);
+   
       border: 1px solid $theme-color;
     }
   }
@@ -604,7 +605,7 @@
 
         .title2 {
           display: inline;
-          background: linear-gradient(90deg, #384BFF 0%, #B42AF3 123.82%);
+          background: linear-gradient(90deg, #3D4AFF 0%, #dc2626 123.82%);
           background-clip: text;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
