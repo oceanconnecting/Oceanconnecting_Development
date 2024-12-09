@@ -106,7 +106,7 @@ export default function Contact() {
                       <div className="content">
                         <p>Make a Quote</p>
                         <h3>
-                          <a href="mailto:infotech@gmail.com">
+                          <a href="mailto:oceanconnecting.dev@gmail.com">
                           oceanconnecting.dev@gmail.com
                           </a>
                         </h3>

@@ -8,7 +8,7 @@ export default function HeaderTop() {
           <ul className="contact-list">
             <li>
               <i className="far fa-envelope" />
-              <a href="mailto:info@example.com" className="link">
+              <a href="mailto:oceanconnecting.dev@gmail.com" className="link">
               oceanconnecting.dev@gmail.com
               </a>
             </li>
