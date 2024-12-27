@@ -7,7 +7,7 @@ export const teamMembers = [
   },
   {
     id: 2,
-    imgSrc: "/assets/img/picdev/zakaria2.svg",
+    imgSrc: "/assets/img/picdev/me.png",
     name: "Zakaria Baouali",
     position: "Full stack developer ",
   },
