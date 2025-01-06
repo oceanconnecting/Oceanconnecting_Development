@@ -6,41 +6,44 @@ import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import React, { useRef } from "react";
-
+import axios from "axios";
 export default function Contact() {
   const [isOpen, setOpen] = useState(false);
-  const form = useRef();
+  const [loading, setLoading] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
 
-  const sandMail = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm("service_noj8796", "template_fs3xchn", form.current, {
-        publicKey: "iG4SCmR-YtJagQ4gV",
-      })
-      .then((res) => {
-        if (res.status == 200) {
-          toast.success("Message Sent successfully!", {
-            position: "bottom-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
-          form.current.reset();
-        } else {
-          toast.error("Ops Message not Sent!", {
-            position: "bottom-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
+    setLoading(true);
+
+    try {
+      const response = await axios.post("https://email-lemon-pi.vercel.app/api/Emaildev", formData);
+      if (response.status === 200) {
+        toast.success("Message Sent successfully!", {
+          position: "bottom-right",
+          autoClose: 5000,
+        });
+        setFormData({ name: "", email: "", message: "" }); // Reset form
+      }
+    } catch (error) {
+      toast.error(
+        error.response?.data?.message || "Oops! Something went wrong.",
+        {
+          position: "bottom-right",
+          autoClose: 5000,
         }
-      });
+      );
+    } finally {
+      setLoading(false);
+    }
   };
   return (
     <>
@@ -190,8 +193,7 @@ export default function Contact() {
                     </p>
                   </div>
                   <form
-                    ref={form}
-                    onSubmit={sandMail}
+                    onSubmit={handleSubmit}
                     className="contact-form-items"
                   >
                     <div className="row g-4">
@@ -205,6 +207,8 @@ export default function Contact() {
                             type="text"
                             name="name"
                             id="name"
+                            value={formData.name}
+              onChange={handleChange}
                             required
                             placeholder="Your Name"
                           />
@@ -218,8 +222,10 @@ export default function Contact() {
                           <span>Your Email*</span>
                           <input
                             type="text"
-                            name="email2"
-                            id="email2"
+                            name="email"
+                            id="email"
+                            value={formData.email}
+                            onChange={handleChange}
                             required
                             placeholder="Your Email"
                           />
@@ -234,6 +240,8 @@ export default function Contact() {
                           <textarea
                             name="message"
                             id="message"
+                            value={formData.message}
+              onChange={handleChange}
                             required
                             placeholder="Write Message"
                             defaultValue={""}
