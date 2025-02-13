@@ -8,7 +8,7 @@ export default function Services2() {
     <section className="service-area space-top mt-1 fix">
       <div className="container">
         <div className="service-card-wrapper style2 mb-30">
-          {serviceCards.slice(0, 4).map((item, index) => (
+          {serviceCards.slice(0,6).map((item, index) => (
             <div
               key={index}
               className={`service-card style2 wow fadeInUp`}
@@ -25,7 +25,7 @@ export default function Services2() {
               </div>
               <div className="service-content">
                 <h3 className="service-content_title">
-                  <Link scroll={false} href={`/service-details/${item.id}`}>
+                  <Link scroll={false} href={`/`}>
                     {item.title}
                   </Link>
                 </h3>
@@ -33,7 +33,7 @@ export default function Services2() {
                 <Link
                   scroll={false}
                   className="link"
-                  href={`/service-details/${item.id}`}
+                  href={`/`}
                 >
                   Read More{" "}
                   <i className="fa-sharp fa-light fa-arrow-right-long" />
@@ -56,7 +56,7 @@ export default function Services2() {
           ))}
         </div>
         <div className="service-card-wrapper style2 mb-30">
-          {serviceCards.slice(4, 8).map((item, index) => (
+          {/* {serviceCards.slice(4, 8).map((item, index) => (
             <div
               key={index}
               className={`service-card style2 wow fadeInUp`}
@@ -101,7 +101,7 @@ export default function Services2() {
                 />
               </div>
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </section>
