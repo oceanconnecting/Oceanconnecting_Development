@@ -1,22 +1,16 @@
-export const teamMembers = [
-  {
-    id: 1,
-    imgSrc: "/assets/img/picdev/kamal.svg",
-    name: "Kamal",
-    position: "Senior Developer",
-  },
-  {
-    id: 2,
-    imgSrc: "/assets/img/picdev/me.png",
-    name: "Zakaria Baouali",
-    position: "Full stack developer ",
-  },
-  {
+export const teamMembers = [ {
     id: 3,
     imgSrc: "/assets/img/picdev/zakaria.svg",
     name: "Ennachoum Zakaria",
     position: "Full stack developer ",
   },
+  {
+    id: 2,
+    imgSrc: "/assets/img/picdev/zakaria2.svg",
+    name: "Zakaria Baouali",
+    position: "Full stack developer ",
+  },
+ 
   {
     id: 4,
     imgSrc: "/assets/img/picdev/mostafa.svg",
