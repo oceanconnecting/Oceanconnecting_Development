@@ -18,6 +18,12 @@ export const teamMembers = [ {
     position: "Full stack developer ",
   },
   {
+    id: 8,
+    imgSrc: "/assets/img/picdev/said.jpeg",
+    name: "SAID BEN RHANIA",
+    position: "Full stack developer ",
+  },
+  {
     id: 5,
     imgSrc: "/assets/img/picdev/ayoub.svg",
     name: "AYOUB BOUNAGA",
