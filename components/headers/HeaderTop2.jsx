@@ -9,7 +9,7 @@ export default function HeaderTop2() {
             <li>
               <i className="far fa-envelope" />
               <a href="mailto:oceanconnecting.dev@gmail.com" className="link">
-              oceanconnecting.dev@gmail.com
+              team@oceanconnecting.dev
               </a>
             </li>
             <li>
