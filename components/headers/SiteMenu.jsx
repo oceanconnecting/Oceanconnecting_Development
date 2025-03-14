@@ -152,7 +152,7 @@ export default function SiteMenu() {
                     href="oceanconnecting.dev@gmail.com"
                     className="info-box_link"
                   >
-                    oceanconnecting.dev@gmail.com
+                    team@oceanconnecting.dev
                   </a>
                 </p>
                 <p>
