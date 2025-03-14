@@ -128,7 +128,7 @@ export default function Footer1() {
                       <li className="text-white">
                         <i className="fa-thin fa-envelope" />
                       </li>
-                      <li className="text-white">oceanconnecting.dev@gmail.com</li>
+                      <li className="text-white">team@oceanconnecting.dev</li>
                     </ul>
                     <ul className="ps-0">
                       <li className="text-white">
